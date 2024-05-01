@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" type="x-icon" href="images/icon.png"/>
+    <title>Burger Burst</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <a href="#">Burger<span>Burst</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#special">Specials</a></li>
+        <li><a href="#discover">Discover</a></li>
+        <li><a href="#Feedback">Feedback</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="nav__btn">
+        <button class="btn"><i class="ri-shopping-bag-fill"></i></button>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="images/Floating-burger-PNG.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>
+            Savor the Moment, Taste the Flavor: <span>Burger Burst</span> Awaits!</h1>
+        <p class="section__description">    
+Experience the sizzle, freshness, and burst of flavor in every bite at Burger Burst,
+where each taste takes you on a journey of irresistible cravings.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container special__container" id="special">
+      <h2 class="section__header">Our Specials</h2>
+      <p class="section__description">
+        Each dish promises an unforgettable dining experience, blending
+        innovation with tradition to delight your senses.
+      </p>
+      <div class="special__grid">
+        <div class="special__card">
+          <img src="images/caprese.png" alt="special" />
+          <h4>Caprese Burger</h4>
+          <p>
+            Grilled chicken breast, fresh mozzarella, tomato, basil pesto, balsamic glaze, and arugula on a ciabatta bun.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">149.00</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="special__card">
+          <img src="images/double.png" alt="special" />
+          <h4>Double Trouble Burger</h4>
+          <p>
+            Two beef patties, double American cheese, lettuce, tomato, onion, pickles, and secret sauce on a sesame seed bun.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">179.00</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="special__card">
+          <img src="images/avocado.png" alt="special" />
+          <h4>Avocado Turkey Burger</h4>
+          <p>
+            Seasoned turkey patty, avocado spread, pepper jack cheese, lettuce, tomato, and chipotle mayo on a wheat bun.
+          </p>
+          <div class="special__ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="special__footer">
+            <p class="price">159.00</p>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container explore__container">
+      <div class="explore__image">
+        <img src="images/burger-flying.png" alt="explore" />
+      </div>
+      <div class="explore__content">
+        <h1 class="section__header">We Offer Healthy & Delicious Fare</h1>
+        <p class="section__description">
+          Satisfy your cravings guilt-free with our dedication to providing nutritious and 
+          flavorful meals. Dive into our thoughtfully crafted menu, designed to harmonize taste and wellness, 
+          guaranteeing each bite is as fulfilling as it is nourishing.
+        </p>
+        <div class="explore__btn">
+          <button class="btn">
+            Explore Story <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span class="banner__icon"><i class="ri-bowl-fill"></i></span>
+        <h4>Order Your Food</h4>
+        <p>
+            Effortlessly place your burger orders online with just a few clicks.
+            Enjoy convenience and efficiency as you select from our diverse menu of mouthwatering burgers.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+      <div class="banner__card">
+        <span class="banner__icon"><i class="ri-truck-fill"></i></span>
+        <h4>Pick Your Food</h4>
+        <p>
+            Tailor your dining experience by selecting from an enticing variety of options.
+             Whether you crave savory, sweet, or something in between, discover the ideal burger to appease your hunger.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+      <div class="banner__card">
+        <span class="banner__icon"><i class="ri-star-smile-fill"></i></span>
+        <h4>Enjoy Your Food</h4>
+        <p>
+            Take a moment to unwind and relish the flavors as your carefully crafted burger is served. 
+            Enjoy each delectable bite, reassured that your contentment is our utmost concern.
+        </p>
+        <a href="#">
+          Read more
+          <span><i class="ri-arrow-right-line"></i></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="chef" id="chef">
+      <img src="assets/topping.png" alt="topping" class="chef__bg" />
+      <div class="section__container chef__container">
+        <div class="chef__image">
+          <img src="images/burgers.png" alt="chef" />
+        </div>
+        <div class="chef__content">
+          <h2 class="section__header">Why people choose us?</h2>
+          <p class="section__description">
+            Embark on a journey to uncover the reasons behind our restaurant's 
+            unwavering popularity among discerning diners, as we invite you to explore the 
+            exquisite flavors and unparalleled dining experiences that have made us 
+            a cherished destination for culinary enthusiasts.
+          </p>
+          <ul class="chef__list">
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              Our commitment to innovation and passion ensures unforgettable dining experiences.
+            </li>
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              From classics to innovations, Burger Burst offers something for every palate.
+            </li>
+            <li>
+              <span><i class="ri-checkbox-fill"></i></span>
+              Quality reigns at Burger Burst, ensuring each bite is a delight.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Costumer Feedback</h2>
+      <p class="section__description">
+        Explore the firsthand experiences and reviews shared by our valued patrons. 
+        Delve into the feedback that reflects our commitment to quality and customer satisfaction.
+      </p>
+      <div class="client__swiper">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                    I had a fantastic experience at Burger Burst! The staff were friendly and attentive, 
+                    and the burgers were simply amazing. They offer a great variety of options to cater to different tastes, 
+                    and I appreciate the attention to detail in every aspect of their service. Highly recommend.
+                </p>
+                <img src="images/b.png" alt="client" />
+                <h4>Bhiel Glorioso</h4>
+                <h5>Business Executive</h5>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                    I was blown away by the quality and taste of the burgers at Burger Burst. 
+                    The patties were juicy, the toppings were generous, and the buns were perfectly toasted. 
+                    Definitely one of the best burger joints in town!
+                </p>
+                <img src="images/a.png" alt="client" />
+                <h4>Abigael Tangunan</h4>
+                <h5>Student</h5>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                    The burgers at Burger Burst were absolutely divine! 
+                    Each bite was bursting with flavor, and the ingredients tasted incredibly fresh. 
+                    It's clear that they put a lot of effort into their burgers, and I can't wait to come back for more!
+                </p>
+                <img src="images/lei.png" alt="client" />
+                <h4>Leika Peralta</h4>
+                <h5>Food Vlogger</h5>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#">Burger<span>Burst</span></a>
+          </div>
+          <p class="section__description">
+            Experience the sizzle, freshness, and burst of flavor in every bite at Burger Burst, 
+            where each taste takes you on a journey of irresistible cravings.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul class="footer__links">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Specials</a></li>
+            <li><a href="#">Meal Deals</a></li>
+            <li><a href="#">Catering Options</a></li>
+            <li><a href="#">Seasonal Offerings</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Information</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Nutrition Information</a></li>
+            <li><a href="#">Allergen Information</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
